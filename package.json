@@ -2,7 +2,10 @@
   "name": "@organization/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "ui:build": "nx run ui:build",
+    "ui:start": "node ui-server.js"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.1.0",
